@@ -225,3 +225,15 @@ __marimo__/
 ~/Desktop/*
 ~/Downloads/*
 ~/Pictures/*
+# macOS
+.DS_Store
+
+# Sensitive files
+*.pem
+*.key
+*.env
+
+# Local data
+data/*
+!data/.gitkeep
+
